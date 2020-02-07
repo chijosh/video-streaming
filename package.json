@@ -9,7 +9,7 @@
     "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Chi Joshua",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.0.1",
