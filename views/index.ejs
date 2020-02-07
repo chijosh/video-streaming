@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WebRTC Video Streaming App</title>
+</head>
+
+<body>
+    <h2>WebRTC Video Streaming App</h2>
+    <div>
+        Video: <select name="camera" id="videoSource">
+            <option value="null"></option>
+        </select>
+    </div>
+    <p>
+        <button id="takeProfilePicture" type="button" autofocus>Create Profile Picture</button>
+    </p>
+    <canvas id="profilePicCanvas"></canvas>
+    <div>
+        <img id="profilePictureOutput">
+    </div>
+    <video id="videoTag" autoplay></video>
+
+    <script src="/js/bundle.js"></script>
+</body>
+
+</html>
